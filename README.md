@@ -9,6 +9,7 @@ Croogo plugin which adds some handy features to core Nodes, such as:
     - Breadcrumbs
     - Submenus
     - Childmenus
+    - Archives: by month with count
 - Images/Thumbs
     - Link a Croogo attachment to a node
     - Use SLIR (needs installing in webroot) to generate resized/cropped thumbs
@@ -51,3 +52,6 @@ This structure means you get full breadcrumbs from the nodes and it is currently
 3. Still loads to do with regards to HTML output and related options
 4. Probably coded for my specific use-case at present, needs to be more flexible for use with any site
 5. Childmenu helper not yet coded
+
+## Disclaimer ##
+This is my first ever plugin, and the first time I have released anything publicly so expect there to be things that could be improved.  Give me honest feedback and I will try and resolve any issues you may have.
