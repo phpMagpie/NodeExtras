@@ -55,7 +55,6 @@ class NodeExtrasActivation {
  */
   public function onDeactivation(&$controller) {
     $controller->Croogo->removeAco('NodeNavigation');
-    
     $this->_schema('drop');
 	}
 		
