@@ -96,7 +96,7 @@ class NodeExtrasEventHandler extends Object implements CakeEventListener {
 					'options' => $options,
 				), 
 				array(
-					'plugin' => 'NodeNavigation'
+					'plugin' => 'NodeExtras'
 				)
 			);
 			return $output;

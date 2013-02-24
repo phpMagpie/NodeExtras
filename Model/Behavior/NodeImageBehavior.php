@@ -27,14 +27,12 @@ class NodeImageBehavior extends ModelBehavior {
 		}
 		$this->settings[$model->alias] = $config;
 		
-		$model->hasOne = array(
-		  'NodeImage' => array(
-		    'className' => 'NodeExtras.NodeImage',
-		    'foreignKey' => 'node_id',
-		    'conditions' => array(),
-		    'dependent' => true
-		  )
-		);
+		$model->hasOne['NodeImage'] = array(
+	    'className' => 'NodeExtras.NodeImage',
+	    'foreignKey' => 'node_id',
+	    'conditions' => array(),
+	    'dependent' => true
+	  );
 	}
 
 /**
