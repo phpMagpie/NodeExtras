@@ -17,5 +17,5 @@ $this->Form->unlockField('NodeImage.attachment_id');
 if(isset($this->data['NodeImage']['attachment_id']) && $this->data['NodeImage']['attachment_id']) {
   echo '<p>'.$this->Html->image($this->data['NodeImage']['Attachment']['path'], array('id'=>'NodeImageAttachmentImage')).'</p>';
 } else {
-  echo '<p>'.$this->Html->image('NodeImage.no-image.jpg', array('id'=>'NodeImageAttachmentImage')).'</p>';
+  echo '<p>'.$this->Html->image('NodeExtras.no-image.jpg', array('id'=>'NodeImageAttachmentImage')).'</p>';
 }
