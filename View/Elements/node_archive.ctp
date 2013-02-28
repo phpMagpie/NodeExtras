@@ -9,7 +9,7 @@
     }
     $link = $this->Html->link(
       $this->Time->format('F Y', $link['month'].'-01') . ' ('.$link['count'].')', 
-      array('plugin'=>'node_navigation', 'controller'=>'node_navigation', 'action'=>'archive', 'type'=>'blog', $link['month']),
+      array('plugin'=>'node_extras', 'controller'=>'node_navigation', 'action'=>'archive', 'type'=>'blog', $link['month']),
       $options
     );
     
