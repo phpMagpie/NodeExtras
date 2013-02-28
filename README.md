@@ -1,6 +1,6 @@
 # NodeExtras v0.1 #
 
-Croogo plugin which adds some handy features to core Nodes, such as:
+Plugin, for Croogo version 1.4, which adds some handy features to core Nodes, such as:
 
 - Makes full use of Tree behaviour for pages
     - Adds new index for viewing pages using Tree ordering
