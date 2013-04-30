@@ -37,7 +37,7 @@ class NodeImageComponent extends Component {
  * @param string $viewFile
  * @return void
  */
-	public function beforeRender(&$controller) {
+	public function beforeRender(Controller $controller) {
 		if ($controller->request->params['controller'] == 'attachments' && $controller->request->params['action'] == 'admin_browse') {
 		  $controller->view = "NodeExtras.Elements/admin_browse";
 		}
