@@ -54,7 +54,7 @@ class NodeNavigationComponent extends Component {
  * @param object $controller instance of controller
  * @return void
  */
-  public function startup(&$controller) {
+  public function startup(Controller $controller) {
     $this->controller = $controller;
     if (!isset($this->controller->params['admin']) && !isset($this->controller->params['requested']) && $this->enabled) {
       $this->processBlocksData($this->Croogo->blocks_for_layout);
@@ -68,7 +68,7 @@ class NodeNavigationComponent extends Component {
  * @param object $controller instance of controller
  * @return void
  */
-  public function beforeRender(&$controller) {
+  public function beforeRender(Controller $controller) {
     $this->controller = $controller;
     $this->controller->set(array(
       'nodeNavigation' => $this->nodeNavigation(),
